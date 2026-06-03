@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment files containing keys/secrets
+.env
+.env.*
+
+# Agent configs and telemetry logs
+.agents/
+.gemini/
+*.webm
+*.log
+
+# Application and training artifacts
+*.db
+results_cpu/
+results_gpu/
+results_gpu_merged/
+evaluation_results.json
+temp_cells.txt
+temp.txt
+
+# Editor and OS metadata
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
